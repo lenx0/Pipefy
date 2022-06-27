@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@400;500&family=Secular+One&display=swap');
@@ -11,8 +11,9 @@ export default createGlobalStyle`
 }
 
 
-html, body, #root {
+html, body, #root { 
     height: 100%;
+}
 
     body {
         font: 14px 'Roboto', sans-serif;
@@ -24,5 +25,4 @@ html, body, #root {
     ul {
         list-style: none;
     }
-}
 `;
